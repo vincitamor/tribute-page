@@ -71,6 +71,11 @@ Image
 	float: left;
 
 }
+/* 
+=======================
+Nav 
+=======================
+*/
 .introductions{
 	width: 100%;
 	height: 40px;
@@ -88,6 +93,11 @@ Image
 li {
 	color: #565360;
 }
+/* 
+=======================
+typography 
+=======================
+*/
 .aboutMLK {
 	width: 100%;
 	height: 200px;
@@ -104,6 +114,7 @@ li {
 .goalsMLK {
 	clear: both
 }
+
 /*
 ========================
 Media queries
