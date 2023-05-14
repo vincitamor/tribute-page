@@ -157,3 +157,12 @@ Media queries
 		height: 60px;
 	}
 }
+hr {
+	width: 80%;
+	margin-left: 1px
+}
+@media (max-width: 1200px) {
+	hr {
+		display: none;
+	}
+}
