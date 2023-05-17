@@ -116,16 +116,17 @@ typography
 }
 
 .sectionHeadings {
+	clear: both;
 	text-align: center;
 	position: relative;
 	top: 80px;
-	left: 550px;
-	font: 700 10px/0 'Times New Roman', Times, serif;
+	left: 500px;
+	font: 700 22px/0 'Times New Roman', Times, serif;
 	border: 2px solid #dfe2e5;
 	border-radius: 5px;
 	padding-top: 22px;
 	padding-bottom: 22px;
-	width: 20.33%;
+	width: 20%;
 
 }
 
