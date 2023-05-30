@@ -120,7 +120,7 @@ typography
 	text-align: center;
 	position: relative;
 	top: 80px;
-	left: 500px;
+	left: 510px;
 	font: 700 22px/0 'Times New Roman', Times, serif;
 	border: 2px solid #dfe2e5;
 	border-radius: 5px;
@@ -167,9 +167,52 @@ Media queries
 		color: #565360;
 	}
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.introductions {
 		height: 60px;
+	}
+	.sectionHeadings {
+		clear: both;
+		text-align: center;
+		position: relative;
+		top: 60px;
+		left: 225px;
+		font: 700 12px/0 'Times New Roman', Times, serif;
+		border: 2px solid #dfe2e5;
+		border-radius: 5px;
+		padding-top: 22px;
+		padding-bottom: 22px;
+		width: 30%;
+	
+	}
+	.spaceAbove {
+		margin-top: 80px;
+	}
+	.mlk {
+		display: block;
+		width: 120px;
+		height: 120px;
+		margin: 125px 0 20px 5px;
+		border-radius: 50%;
+		border: 1px solid #37b9f1;
+		object-position: initial;
+		float: left;
+	
+	}
+	.authorInfo {
+		position: relative;
+		top: 70px;
+		font: 300 15px/0 'Helvetica', sans-source;
+	}
+	.aboutMLK {
+		width: 98%;
+	}
+	.theEnd {
+		clear: both;
+		position: absolute;
+		top: 1110px;
+		left: 200px;
+		padding-bottom: 10px;
 	}
 }
 hr {
