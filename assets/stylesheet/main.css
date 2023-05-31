@@ -83,11 +83,12 @@ Nav
 }
 .introductions li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 21px;
 }
 .pos {
-	font: 700 18px/0 "Nuevela", Times, arial;
-	text-align: center;
+	font: 700 28px/0 'Nuevela', Times, arial;
+	text-align: left;
+	padding-left: 20px;
 	color: #565360;
 }
 li {
@@ -108,7 +109,7 @@ typography
 	width: 960px;
 	position: relative;
 	top: 100px;
-	left: 10px;
+	left: 50px;
 	color: #565360;
 }
 .goalsMLK {
@@ -120,16 +121,24 @@ typography
 	text-align: center;
 	position: relative;
 	top: 80px;
-	left: 510px;
+	left: 610px;
 	font: 700 22px/0 'Times New Roman', Times, serif;
 	border: 2px solid #dfe2e5;
 	border-radius: 5px;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	width: 20%;
-
 }
-
+hr {
+	width: 78%;
+	margin-right: 3%
+}
+.theEnd {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+	font: 700 18px/0 'Helvetica', 'Times New Roman', Times, sans-source;
+}
 /*
 ========================
 Media queries
@@ -214,10 +223,6 @@ Media queries
 		left: 200px;
 		padding-bottom: 10px;
 	}
-}
-hr {
-	width: 78%;
-	margin-left: 1px
 }
 @media (max-width: 1200px) {
 	hr {
