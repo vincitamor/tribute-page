@@ -151,10 +151,15 @@ hr {
 	margin-right: 3%
 }
 .theEnd {
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
 	text-align: center;
 	font: 700 18px/0 'Helvetica', 'Times New Roman', Times, sans-source;
+}
+.social {
+	position: relative;
+	bottom: -30px;
+	margin-bottom: 50px;
 }
 /*
 ========================
